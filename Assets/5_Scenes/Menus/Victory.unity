@@ -715,7 +715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2048975195314534499, guid: 691fdee0cc84bc44dbdc22779c8050dc, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2048975195314534499, guid: 691fdee0cc84bc44dbdc22779c8050dc, type: 3}
       propertyPath: m_SortingLayer
@@ -1570,12 +1570,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 0}
+  pauseMenuOptions: {fileID: 0}
+  pauseMenuControls: {fileID: 0}
+  pauseMenuDificulty: {fileID: 0}
   help: {fileID: 0}
   movimiento: {fileID: 0}
   botonPausa: {fileID: 0}
   mute: {fileID: 0}
   unmute: {fileID: 0}
   sfx: {fileID: 0}
+  mov: {fileID: 0}
+  muteG: 0
 --- !u!1 &400279176
 GameObject:
   m_ObjectHideFlags: 0
@@ -2436,7 +2441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &1289813253
 Rigidbody2D:
   serializedVersion: 4
